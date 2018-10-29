@@ -30,7 +30,7 @@ from nltk.corpus import stopwords
 for i in range(len(all_words)):  
     all_words[i] = [w for w in all_words[i] if w not in stopwords.words('english')]
 
-#print(all_words)
+print(all_words)
 
 from gensim.models import Word2Vec
 
