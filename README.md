@@ -15,7 +15,7 @@ From command line run `docker build -t nplmachine .`
 
 On windows run `winpty docker run -it nlpmachine`
 
-## Run scritp
+## Run scriptp
 
 `python3.6 ~/pagescraper.py`
 
